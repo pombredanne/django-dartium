@@ -28,13 +28,14 @@ setup(
         'Framework :: Django',
 	'Intended Audience :: Developers',
 	'License :: OSI Approved :: MIT License',
-        'Programming Language :: Dart',
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
-	'Topic :: Internet :: WWW/HTTP :: Browsers :: Dartium',
 	'Topic :: Software Development :: Libraries :: Python Modules',
 	'Topic :: Software Development :: Testing',
 	'Topic :: Software Development :: User Interfaces',
     ],
-    packages=['django_dartium'],
+    packages=[
+        'django_dartium',
+        'django_dartium.templatetags',
+    ],
 )
