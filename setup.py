@@ -16,7 +16,7 @@ long_description = '\n\n'.join((
 
 setup(
     name='django-dartium',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/damoti/django-dartium',
     license='MIT',
     description='Django Middlware to detect Dartium web browser.',

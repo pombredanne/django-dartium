@@ -1,4 +1,7 @@
-class DartiumDetectionMiddleware:
+from django.utils.deprecation import MiddlewareMixin
+
+
+class DartiumDetectionMiddleware(MiddlewareMixin):
 
     @staticmethod
     def process_request(request):
